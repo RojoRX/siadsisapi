@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personas",
+  "info": {
+    "singularName": "persona",
+    "pluralName": "personas",
+    "displayName": "persona",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ci": {
+      "type": "text",
+      "unique": true
+    },
+    "extension": {
+      "type": "string"
+    },
+    "nombres": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "string"
+    },
+    "apellido_paterno": {
+      "type": "string"
+    },
+    "apellido_materno": {
+      "type": "string"
+    },
+    "genero": {
+      "type": "string"
+    },
+    "fecha_nacimiento": {
+      "type": "date"
+    },
+    "mayor_edad": {
+      "type": "boolean"
+    },
+    "estado_civil": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "telefono_fijo": {
+      "type": "string"
+    },
+    "celular": {
+      "type": "string"
+    },
+    "telefono_coorpo": {
+      "type": "string"
+    },
+    "correo_electronico": {
+      "type": "string"
+    },
+    "profesion": {
+      "type": "string"
+    },
+    "libreta_militar": {
+      "type": "string"
+    },
+    "nacionalidad": {
+      "type": "string"
+    },
+    "lugar_nacimiento": {
+      "type": "string"
+    },
+    "clase_de_documento": {
+      "type": "string"
+    },
+    "fecha_ingreso": {
+      "type": "date"
+    },
+    "id_tipo_contrato": {
+      "type": "integer"
+    },
+    "baja": {
+      "type": "integer"
+    }
+  }
+}
